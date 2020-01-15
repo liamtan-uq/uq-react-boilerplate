@@ -23,7 +23,8 @@ const apiState = (state = defaultState, action: any): IApiState => {
       return {
         ...state,
         users: action.users,
-        isLoading: false
+        isLoading: false,
+        error: null
       };
     case FETCH_USERS_ERROR:
       return {
