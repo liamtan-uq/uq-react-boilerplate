@@ -6,7 +6,6 @@ import {
   Reducer
 } from "redux";
 import thunk from "redux-thunk";
-
 import { IStore } from "../types";
 
 // Import reducers to combine into root reducer

@@ -3,7 +3,6 @@ import {
   FETCH_USERS_SUCCESS,
   FETCH_USERS_ERROR
 } from "../actions/api";
-
 import { IApiState } from "../types";
 
 export const defaultState: IApiState = {

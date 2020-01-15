@@ -1,14 +1,10 @@
 import React from "react";
-import "./App.css";
-
 import { Provider as StoreProvider } from "react-redux";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
-import store from "./reducers";
-
 import UsersPage from "./pages/UsersPage";
-
 import AppBar from "./components/AppBarSticky";
+import store from "./reducers";
+import "./App.css";
 
 function App() {
   return (

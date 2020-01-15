@@ -1,5 +1,4 @@
 import React from "react";
-
 import Logo from "../static/uq-logo-white.svg";
 
 const styles: any = {
